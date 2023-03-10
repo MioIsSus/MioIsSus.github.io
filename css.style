@@ -1,0 +1,183 @@
+         body {
+		     margin: 0;
+		 }
+		 .openbtn {
+		     position: fixed;
+			 top: 35px;
+			 left: 85px;
+		     display: inline-block;
+			 cursor: pointer;
+			 z-index: 1;
+		 }
+		 .bar1, .bar2, .bar3 {
+             width: 60px;
+             height: 10px;
+             background-color: white;
+             margin: 10px 0;
+             transition: 0.4s;
+         }
+		 .topnav {
+		     z-index: 1;
+		     position: fixed;
+			 padding-left: 600px;
+			 padding-right: 600px;
+		     font-size: 15;
+		     color: white;
+		     float: center;
+			 background-color: #1f302b;
+			 overflow: hidden;
+		 }
+		 .sidenav {
+		     height: 100%;
+			 width: 0px;
+			 position: fixed;
+			 z-index: 2;
+			 top: 0;
+			 left: 0;
+			 background-color: #1f302b;
+			 overflow-x: hidden;
+			 padding-top: 60px;
+			 transition: 0.5s;
+		 }
+		 .sidenav a {
+		     padding: 8px 8px 8px 490px;
+			 text-decoration: none;
+			 font-size: 25px;
+			 color: white;
+			 display: block;
+			 text-align: right;
+			 transition: 0.3s;
+		 }
+		 .sidenav .credits {
+		     color: white;
+		     text-align: right;
+		     position: absolute;
+		     padding-top: 50px;
+		 }
+		 .sidenav a:hover {
+		     color: green;
+		 }
+		 .sidenav .closebtn {
+		     z-index: 2;
+		     position: absolute;
+			 top: 35px;
+			 left: 85px;
+			 font-size: 36px;
+			 cursor: pointer;
+		 }
+		 #main {
+		     transition: margin-left 0.5s;
+			 padding-top: 150px;
+		 }
+		}
+		h1.fact1 { 
+		     color: green;
+		}
+		@font-face { 
+		     font-family: stanberry;
+			 src: url(Stanberry.ttf);
+		}
+		body { 
+		     font-family: stanberry;
+		}
+		div.image1 { 
+			 float: left; 
+			 position: absolute; 
+			 top: 886px; 
+			 left: 65px;
+		}
+		div.contents { 
+		     position: absolute;
+			 top: 879px;
+			 background-color: #edfbf7; 
+			 overflow: hidden; 
+			 float: right; 
+			 padding-left:  500px; 
+			 padding-right: 50px;
+		}
+		h1.fact2 { 
+		     color: green;
+		}
+		div.image2 { 
+		     float: right; 
+			 position: absolute; 
+			 top: 1255px; 
+			 right: 100px
+		}
+		div.contents2 { 
+			 background-color: #edfbf7; 
+			 overflow: hidden; 
+			 position: absolute;
+			 float: left; 
+			 top: 1250px;
+			 padding-right: 500px; 
+			 padding-left: 60px;
+		}
+		h1.fact3 { 
+			 color: green;
+		}
+		div.image3 {
+			 float: right;
+			 position: absolute;
+			 top: 1719px;
+			 left: 50px;
+		}
+		div.contents3 {	
+			 background-color: #edfbf7;
+			 overflow: hidden;
+			 position: absolute;
+			 float: right;
+			 top: 1710px;
+			 padding-right: 65px;
+			 padding-left: 500px;
+		}
+		.sectiona {
+		     float: center;
+		     position: absolute;
+			 left: 100px;
+			 top: 65px;
+			 font-size: 50;
+			 color: #8fdab6;
+		}
+		.sectionb {
+		     float: center;
+		     position: absolute;
+			 left: 100px;
+			 top: 180px;
+			 font-size: 50;
+			 color: #8fdab6;
+		}
+		.sectionc {
+		     float: center;
+		     position: absolute;
+			 left: 100px;
+			 top: 290px;
+			 font-size: 50;
+			 color: #8fdab6;
+		}
+		.listfact {
+		     color: green;
+		}
+		.ContentList {
+		     background-color: #edfbf7;
+			 overflow: hidden;
+			 position: absolute;
+			 float: center;
+			 top: 2250px;
+			 left: 225px;
+			 padding-left: 200px;
+			 padding-right: 100px;
+			 padding-top: 25px;
+		}
+		.end {
+		     background-color: #1f302b;
+			 color: white;
+			 overflow: hidden;
+			 position: absolute;
+			 top: 2800px;
+			 left: 1px;
+			 text-align: center;
+			 float: center;
+			 padding-right: 480px;
+			 padding-left: 480px;
+		}
